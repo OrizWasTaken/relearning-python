@@ -8,7 +8,7 @@
 
   `.append(object)`: append object to the _end of a list_.
 
-  `insert(index, object)`: Insert object _before index._
+  `.insert(index, object)`: Insert object _before index._
 
 - Removing Elements from a List
 
