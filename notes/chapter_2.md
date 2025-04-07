@@ -19,6 +19,10 @@
 
 - The output of any operation that involves a float is _always_ a float.
 
-- multiple variable can be declared on a single line, a technique used most often when initializing a set of numbers: `x, y, z = 0, 0, 0`
+- Multiple variable can be declared on a single line, a technique used most often when initializing a set of numbers
+
+  ```python
+  x, y, z = 0, 0, 0
+  ```
 
 - Python doesn't have a _constant_ data type, but python programmers use all capital letters to indicate a variable should be treated as a constant and never be changed.
