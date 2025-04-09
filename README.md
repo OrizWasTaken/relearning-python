@@ -22,9 +22,9 @@
 |---------|-----------------------------------|:------:|
 | **1** | Python Basics & Setup | ✅ |
 | **2** | Variables & Simple Data Types | ✅ |
-| **3** | Introducing Lists | ⏳ |
-| **4** | Working with Lists | ⏳ |
-| **5** | If Statements | ⏳ |
+| **3** | Introducing Lists | ✅ |
+| **4** | Working with Lists | ✅ |
+| **5** | If Statements | ✅ |
 | **6** | Dictionaries | ⏳ |
 | **7** | User Input & While Loops | ⏳ |
 | **8** | Functions | ⏳ |
