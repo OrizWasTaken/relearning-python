@@ -1,10 +1,10 @@
-# 🚀 **Relearning Python - Crash Course Practice**  
+# 🚀 **Relearning Python - Crash Course Practice**
 
-📌 *Relearning Python from scratch using* **Python Crash Course** *after a long break. This repository contains my notes, exercises, and projects as I regain fluency.*  
+📌 _Relearning Python from scratch using_ **Python Crash Course** _after a long break. This repository contains my notes, exercises, and projects as I regain fluency._
 
 ---
 
-## 🏗 **Repository Structure**  
+## 🏗 **Repository Structure**
 
 📂 **`exercises/`** → Practice exercises from the book  
 📂 **`projects/`** → Mini projects and real-world applications  
@@ -16,47 +16,49 @@
 
 ---
 
-## 📊 **Progress Tracker**  
+## 📊 **Progress Tracker**
 
-| Chapter | Topic | Status |
-|---------|-----------------------------------|:------:|
-| **1** | Python Basics & Setup | ✅ |
-| **2** | Variables & Simple Data Types | ✅ |
-| **3** | Introducing Lists | ✅ |
-| **4** | Working with Lists | ✅ |
-| **5** | If Statements | ✅ |
-| **6** | Dictionaries | ⏳ |
-| **7** | User Input & While Loops | ⏳ |
-| **8** | Functions | ⏳ |
-| **9** | Classes | ⏳ |
-| **10** | Files & Exceptions | ⏳ |
-| **11** | Testing Your Code | ⏳ |
-| **12-14** | Projects: Alien Invasion | ⏳ |
-| **15-17** | Data Visualization | ⏳ |
+| Chapter   | Topic                         | Status |
+| --------- | ----------------------------- | :----: |
+| **1**     | Python Basics & Setup         |   ✅   |
+| **2**     | Variables & Simple Data Types |   ✅   |
+| **3**     | Introducing Lists             |   ✅   |
+| **4**     | Working with Lists            |   ✅   |
+| **5**     | If Statements                 |   ✅   |
+| **6**     | Dictionaries                  |   ✅   |
+| **7**     | User Input & While Loops      |   ⏳   |
+| **8**     | Functions                     |   ⏳   |
+| **9**     | Classes                       |   ⏳   |
+| **10**    | Files & Exceptions            |   ⏳   |
+| **11**    | Testing Your Code             |   ⏳   |
+| **12-14** | Projects: Alien Invasion      |   ⏳   |
+| **15-17** | Data Visualization            |   ⏳   |
 
-(✅ = Completed, ⏳ = In Progress)
----
+## (✅ = Completed, ⏳ = In Progress)
 
-## 🛠 **How to Use This Repository**  
+## 🛠 **How to Use This Repository**
 
-### ✅ Clone the Repository  
+### ✅ Clone the Repository
+
 ```bash
 git clone https://github.com/orizwastaken/relearning-python.git
 cd python-crash-relearn
 ```
 
-### ▶ Run Python Files  
+### ▶ Run Python Files
+
 ```bash
 python exercises/example.py
 ```
 
-### ✏ Contribute or Fork  
-If you have suggestions, feel free to open an issue or submit a pull request!  
+### ✏ Contribute or Fork
+
+If you have suggestions, feel free to open an issue or submit a pull request!
 
 ---
 
-## 🔥 **Why I’m Doing This**  
+## 🔥 **Why I’m Doing This**
 
-I originally learned Python years ago, but after a long break, I forgot a lot of it. Now, I’m relearning everything **systematically**, improving my skills, and documenting my journey. This repository serves as my **digital notebook** and a resource for anyone on a similar path! 🚀  
+I originally learned Python years ago, but after a long break, I forgot a lot of it. Now, I’m relearning everything **systematically**, improving my skills, and documenting my journey. This repository serves as my **digital notebook** and a resource for anyone on a similar path! 🚀
 
 ---
