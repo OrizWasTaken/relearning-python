@@ -30,7 +30,7 @@
 | **8**     | Functions                     |   ✅   |
 | **9**     | Classes                       |   ✅   |
 | **10**    | Files & Exceptions            |   ✅   |
-| **11**    | Testing Your Code             |   ⏳   |
+| **11**    | Testing Your Code             |   ✅   |
 | **12-14** | Projects: Alien Invasion      |   ⏳   |
 | **15-17** | Data Visualization            |   ⏳   |
 
