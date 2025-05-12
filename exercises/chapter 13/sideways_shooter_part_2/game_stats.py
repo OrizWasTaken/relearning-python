@@ -1,0 +1,13 @@
+from settings import Settings
+
+class GameStats:
+    """"""
+
+    def __init__(self):
+        """"""
+        self.settings = Settings()
+        self.reset_stats()
+
+    def reset_stats(self):
+        """"""
+        self.ships_left = self.settings.ships_limit
