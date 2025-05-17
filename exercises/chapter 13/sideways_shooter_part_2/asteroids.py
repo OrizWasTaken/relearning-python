@@ -1,7 +1,6 @@
 import pygame
 import random
 from pygame.sprite import Sprite
-from settings import Settings
 
 class Asteroids(Sprite):
     """A class to represent a single asteroid"""

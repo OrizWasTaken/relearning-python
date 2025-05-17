@@ -1,9 +1,6 @@
 import pygame
-import os
 from pygame.sprite import Sprite
 from settings import Settings
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 13/raindrops')
 
 class Raindrop(Sprite):
     """A class to represent a single raindrop"""

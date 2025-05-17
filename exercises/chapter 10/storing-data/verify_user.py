@@ -1,8 +1,5 @@
 from pathlib import Path
 import json
-import os
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 10/storing-data')
 
 def get_stored_username(path):
     """Get stored username if available."""

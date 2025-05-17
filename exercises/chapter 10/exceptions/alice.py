@@ -1,7 +1,4 @@
 from pathlib import Path
-import os
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 10/exceptions')
 
 def count_common_words(filename, word):
     """Count how many times word appears in the text."""

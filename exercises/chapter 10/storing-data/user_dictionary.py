@@ -1,8 +1,5 @@
 from pathlib import Path
 import json
-import os
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 10/storing-data')
 
 def get_new_info(path):
     """Prompt for a new user info"""

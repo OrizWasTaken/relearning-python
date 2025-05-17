@@ -1,4 +1,5 @@
 class Settings:
+    """A class to store all settings for Sideways Shooter"""
     def __init__(self):
         # screen settings
         self.screen_width = 1200

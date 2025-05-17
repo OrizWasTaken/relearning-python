@@ -1,7 +1,4 @@
 from pathlib import Path
-from os import chdir
-
-chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 10/reading-from-a-file/')
 
 path = Path('learning-python.txt')
 contents = path.read_text()

@@ -1,6 +1,5 @@
 import pygame
 import sys
-
 from bird import Bird
 from settings import Settings
 

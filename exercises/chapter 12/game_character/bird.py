@@ -1,8 +1,4 @@
 import pygame
-import os
-from settings import Settings
-
-os.chdir('c:/users/oriz/desktop/relearning python/exercises/chapter 12/game_character/')
 
 class Bird:
     """A class to manage a FlappyBird instance"""

@@ -1,9 +1,5 @@
 import pygame
-import os
-
 from settings import Settings
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 12/sideways_shooter')
 
 class Ship:
     """A class to manage the ship."""

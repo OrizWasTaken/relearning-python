@@ -1,9 +1,6 @@
 import pygame
-import os
 from pygame.sprite import Sprite
 from settings import Settings
-
-os.chdir('C:/Users/Oriz/Desktop/relearning python/exercises/chapter 13/stars')
 
 class Star(Sprite):
     """A class to represent a single star in the constellation"""
