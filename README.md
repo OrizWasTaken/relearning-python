@@ -31,8 +31,9 @@
 | **9**     | Classes                       |   ✅   |
 | **10**    | Files & Exceptions            |   ✅   |
 | **11**    | Testing Your Code             |   ✅   |
-| **12-14** | Projects: Alien Invasion      |   ⏳   |
+| **12-14** | Alien Invasion                |   ✅   |
 | **15-17** | Data Visualization            |   ⏳   |
+| **18-20** | Web Applications              |   ⏳   |
 
 ## (✅ = Completed, ⏳ = In Progress)
 
