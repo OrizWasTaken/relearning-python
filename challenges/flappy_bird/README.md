@@ -68,14 +68,11 @@ pip install pygame
 python main.py
 ```
 
-## 🎨 Screenshots\*
+## 🎨 Screenshot
 
-![Gameplay Screenshot](./screenshots/gameplay.png)
-_Add more screenshots or animated GIFs here._
+## ![Gameplay Screenshot](screenshot.png)
 
----
-
-## 🔧 Configuration\*
+## 🔧 Configuration
 
 You can customize:
 
