@@ -1,7 +1,5 @@
 # Getting Started with Django
 
-## Setting Up a Project
-
 - Creating and activating a virtual environment
 
   ```bash
@@ -88,6 +86,7 @@
     ```bash
     $ python manage.py shell
     ```
+    By default, the `shell` command automatically imports the models from the `INSTALLED_APPS`.
 
   - Acessing model objects
 
