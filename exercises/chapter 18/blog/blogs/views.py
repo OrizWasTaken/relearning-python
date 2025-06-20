@@ -28,13 +28,6 @@ def blog(request, blog_id):
     context = {'blog': blog, 'posts': posts}
     return render(request, 'blogs/blog.html', context)
 
-def post(request, post_id):
-    """A page for blog post."""
-    post = Post.objects.get(id=post_id)
-    blog = post.blog
-    context = {'blog':blog, 'post':post}
-    return render(request, 'blogs/post.html', context)
-
 @login_required
 def new_blog(request):
     """Add a new blog."""
@@ -68,21 +61,6 @@ def new_post(request, blog_id):
     return render(request, 'blogs/new_post.html', context)
 
 @login_required
-def edit_blog(request, blog_id):
-    """Edit a blog."""
-    blog = Blog.objects.get(id=blog_id)
-    check_blog_owner(request, blog)
-    if request.method != 'POST':
-        form = BlogForm(instance=blog)
-    else:
-        form = BlogForm(instance=blog, data=request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('blogs:blog', blog_id=blog_id)
-    context = {'blog': blog, 'form': form}
-    return render(request, 'blogs/edit_blog.html', context)
-
-@login_required
 def edit_post(request, post_id):
     """Edit a blog post."""
     post = Post.objects.get(id=post_id)
@@ -94,7 +72,7 @@ def edit_post(request, post_id):
         form = PostForm(instance=post, data=request.POST)
         if form.is_valid():
             form.save()
-            return redirect('blogs:post', post_id=post_id)
+            return redirect('blogs:blog', blog_id=blog.id)
     context = {'form': form, 'blog': blog, 'post': post}
     return render(request, 'blogs/edit_post.html', context)
 
